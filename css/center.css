@@ -109,6 +109,9 @@
  line-height: 20px;
  text-align: center;
 }
+.cak_header{
+  position: relative;
+}
 
 	.cak_customer{
 		margin-left: 80px;
@@ -116,11 +119,11 @@
 	     padding: 9px 27px 9px 27px;
 	}
 	.cak_shop_car{
-		display: inline-block;
-     vertical-align: middle;
+    position: absolute;
+    right:30px;
+    top:32px;
      height: 32px;
      width: 80px;
-     margin-left: 28px;
      line-height: 32px;
      border: 2px solid #e0e0e0;
      text-align: center;
